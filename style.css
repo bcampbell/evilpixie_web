@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Topaz";
+  src: url(Topaz_a1200_v1.0.ttf) format("truetype");
+}
+
+
+body {
+    font-family: "Topaz", serif;
+    background: #18183f url(img/sea.png) repeat-x ;
+    line-height: 125%;
+    }
+
+img#ice {
+    position: absolute;
+    left: 10px;
+    top: 180px;
+    padding: 0px;
+    margin: 0px;
+/*    width: 220px;
+    height: 160px;*/
+    z-index:-1;
+}
+
+
+a img { border: none;
+    margin: 0.2em 0 0.2em 0.2em;
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+a:hover img { border: none;
+    -moz-box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+}
+
+
+
+
+#logo {
+/*    outline: 1px solid black; */
+    margin: 3em 20% 1em 20%;
+    padding: 0.2em 2em;
+    color: #fff;
+    /*-moz-box-shadow: 10px 10px 10px rgba(0,0,0,0.2);*/
+}
+
+#logo h1 { display: inline; padding: 0.2em 0px; }
+#logo p { margin-left: 1em; display: inline; padding: 0px; color: #fff; text-shadow: #779 2px 2px;}
+
+
+h1 { text-shadow: #000 4px 4px; font-size: 300%; }
+h2 { text-shadow: #000 2px 2px; text-transform: uppercase; color: #fff; }
+
+a:link {color: #fe0;}
+a:visited {color:#f82;}
+a:hover {color:#fff;}
+a:active {color:#08f;}
+
+#content {
+    margin: 1em 20% 5% 20%;
+    padding: 0.5em 2em;
+    /*
+    background-color: rgba(255,255,255,0.8);
+    color: #448;
+    */
+    -moz-box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    color: #ddf;
+    /*background-color: rgba(255,255,255,0.2);*/
+    background-color: #99a;
+    background-color: #779;
+    background-color: #557;
+}
